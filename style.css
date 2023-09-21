@@ -256,10 +256,6 @@ nav {
 
 /* PROJECTS*/
 
-.project {
-  margin: 135px;
-}
-
 .project:last-child {
   margin-bottom: 40px;
 }
@@ -275,7 +271,9 @@ nav {
   border-radius: 20px;
   overflow: hidden;
   position: relative;
+  margin-bottom: 135px;
 }
+
 .project__wrapper:before {
   content: "";
   position: absolute;
@@ -406,10 +404,10 @@ footer {
     font-size: 18px;
   }
 
-  .language{
-    width:calc(100%/3);
+  .language {
+    width: calc(100% / 3);
   }
-  .project__description--para{
+  .project__description--para {
     font-size: 14px;
   }
 }
